@@ -1,14 +1,22 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-
+import Customer from "./components/Customer";
+const customer = {
+  name: "하두부",
+  birthday: "960315",
+  gender: "남",
+  job: "대학생",
+};
 class App extends Component {
   render() {
     return (
-      <div className="gray-background">
-        <img src={logo} lat="logo" />
-        <h2>리액트 프로젝트 시작</h2>
-      </div>
+      <Customer
+        name={customer.name}
+        birthday={customer.birthday}
+        gender={customer.gender}
+        job={customer.job}
+      />
     );
   }
 }
