@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import TableRow from "@material-ui/core/TableRow";
 import TableCell from "@material-ui/core/TableCell";
@@ -16,7 +15,7 @@ class Customer extends React.Component {
         <TableCell>{this.props.job}</TableCell>
       </TableRow>
     );
-=======
+
   import React from "react";
 
   class Customer extends React.Component {

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 import Customer from "./components/Customer";
-<<<<<<< HEAD
 import Paper from "@material-ui/core/Paper";
 import Table from "@material-ui/core/Table";
 import TableHead from "@material-ui/core/TableHead";
